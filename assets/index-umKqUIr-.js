@@ -70,7 +70,7 @@ Error generating stack: `+i.message+`
   text-white
   overflow-hidden
 min-h-[calc(100vh-80px)]
-lg:h-[calc(95vh-100px)]
+lg:h-[calc(95vh-100pxdecor
   flex
   items-start
 `,children:[s.jsx("img",{src:Hl,alt:"Decor",className:`
@@ -96,7 +96,7 @@ lg:h-[calc(95vh-100px)]
   lg:right-[309px]
 `}),s.jsx("img",{src:Hl,alt:"Decor",className:`
   absolute
-  top-[400px]
+  top-[300px]
   right-[15px]
   w-[20px]
   md:top-[300px]
