@@ -72,7 +72,7 @@ Error generating stack: `+i.message+`
 min-h-[calc(100vh-80px)]
 lg:h-[calc(95vh-100px)]
   flex
-  items-center
+  items-start
 `,children:[s.jsx("img",{src:Hl,alt:"Decor",className:`
   absolute
   top-[220px]
