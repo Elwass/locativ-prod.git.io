@@ -3,7 +3,9 @@
   "private": true,
   "version": "0.0.1",
   "type": "module",
+  "homepage": "https://elwass.github.io/locativ-prod.git.io/",
   "scripts": {
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
