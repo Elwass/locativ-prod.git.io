@@ -12,7 +12,7 @@ export default function Hero() {
 min-h-[calc(100vh-80px)]
 lg:h-[calc(95vh-100px)]
   flex
-  items-center
+  items-start
 ">
 
 
