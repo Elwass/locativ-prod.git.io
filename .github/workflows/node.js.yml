@@ -13,22 +13,21 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
+      - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 22
-          cache: npm
+          node-version: 20
 
-      - name: Install dependencies
+      - name: Install
         run: npm install
 
-      - name: Build project
-        run: npm run build
+      - name: Build
+        run: npx vite build
 
-      - name: Deploy to gh-pages branch
+      - name: Deploy
         run: |
           git config --global user.name "github-actions-bot"
           git config --global user.email "support+actions@github.com"
