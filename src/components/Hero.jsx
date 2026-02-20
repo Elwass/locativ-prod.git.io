@@ -10,7 +10,7 @@ export default function Hero() {
   text-white
   overflow-hidden
 min-h-[calc(100vh-80px)]
-lg:h-[calc(95vh-100px)]
+lg:h-[calc(95vh-100pxdecor
   flex
   items-start
 ">
@@ -56,7 +56,7 @@ lg:h-[calc(95vh-100px)]
         alt="Decor"
         className="
   absolute
-  top-[400px]
+  top-[300px]
   right-[15px]
   w-[20px]
   md:top-[300px]
