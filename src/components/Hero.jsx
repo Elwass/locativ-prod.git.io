@@ -56,7 +56,7 @@ lg:h-[calc(95vh-100px)]
         alt="Decor"
         className="
   absolute
-  top-[330px]
+  top-[320px]
   right-[15px]
   w-[20px]
   md:top-[300px]
