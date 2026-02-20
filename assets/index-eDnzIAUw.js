@@ -69,8 +69,8 @@ Error generating stack: `+i.message+`
   bg-[#0f0f0f]
   text-white
   overflow-hidden
-min-h-[70vh]
-lg:min-h-[80vh]
+min-h-[calc(100vh-80px)]
+lg:h-[calc(95vh-100px)]
   flex
   items-center
 `,children:[s.jsx("img",{src:Hl,alt:"Decor",className:`
