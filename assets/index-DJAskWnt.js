@@ -96,7 +96,7 @@ lg:h-[calc(95vh-100px)]
   lg:right-[309px]
 `}),s.jsx("img",{src:Hl,alt:"Decor",className:`
   absolute
-  top-[330px]
+  top-[320px]
   right-[15px]
   w-[20px]
   md:top-[300px]
